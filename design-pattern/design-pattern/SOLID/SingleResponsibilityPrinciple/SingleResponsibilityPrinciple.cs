@@ -4,7 +4,7 @@ using System.Collections.Generic;
 /// <summary>
 /// Every software module should have only one reason to change
 /// </summary>
-namespace design_pattern.SOLID
+namespace design_pattern.SingleResponsibilityPrinciple
 {
     /// <summary>
     /// Single Responsibility to handle Employee related activity.
