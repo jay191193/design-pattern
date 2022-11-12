@@ -1,6 +1,0 @@
-D:\Design Pattern\design-pattern\design-pattern\design-pattern\bin\Debug\design-pattern.exe
-D:\Design Pattern\design-pattern\design-pattern\design-pattern\bin\Debug\design-pattern.pdb
-D:\Design Pattern\design-pattern\design-pattern\design-pattern\obj\Debug\design-pattern.csproj.AssemblyReference.cache
-D:\Design Pattern\design-pattern\design-pattern\design-pattern\obj\Debug\design-pattern.csproj.CoreCompileInputs.cache
-D:\Design Pattern\design-pattern\design-pattern\design-pattern\obj\Debug\design-pattern.exe
-D:\Design Pattern\design-pattern\design-pattern\design-pattern\obj\Debug\design-pattern.pdb
