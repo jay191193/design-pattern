@@ -32,3 +32,20 @@ public class Calculator
 - You can refer the **solution** for this violation of **Open Closed Principle** over [here](https://github.com/jay191193/design-pattern/blob/main/design-pattern/design-pattern/SOLID/OpenClosedPrinciple/OpenClosedPrinciple.cs).
 - So, it will create separate class for each functionality of calculator.
 - One other thing you can notice over here that we are serving **Single Responsibility Principle** here also.
+
+## To Run Open Closed Principle code, you have to update your ```Program.cs``` as per below.
+```sh
+using design_pattern.OpenClosedPrinciple;
+
+namespace design_pattern
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Calculator c = new Calculator(new Summation(1, 2));
+            c.Calculate();
+        }
+    }
+}
+```
