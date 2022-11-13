@@ -44,3 +44,38 @@ public class StoreToDB
 }
 ```
 Here we have 3 classes with each class has it's own responsibility.
+
+## To run Single Responsibility Principle code, you need to update your ```Program.cs``` file as per below.
+```sh
+using design_pattern.SingleResponsibilityPrinciple;
+
+namespace design_pattern
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Employee masterEmployee = new Employee();
+            Department masterDepartment = new Department();
+
+            Department d = new Department() { DepartmentId = 1, DepartmentName = "HR" };
+            Department d1 = new Department() { DepartmentId = 2, DepartmentName = "Network" };
+            masterDepartment.AddDepartment(d);
+            masterDepartment.AddDepartment(d1);
+            System.Console.WriteLine();
+
+            Employee e = new Employee() { EmployeeId = 101, DepartmentId = 1, EmployeeName = "Zuck" };
+            Employee e1 = new Employee() { EmployeeId = 102, DepartmentId = 2, EmployeeName = "Elon" };
+            Employee e2 = new Employee() { EmployeeId = 103, DepartmentId = 1, EmployeeName = "Bill" };
+            masterEmployee.AddEmployee(e);
+            masterEmployee.AddEmployee(e1);
+            masterEmployee.AddEmployee(e2);
+            System.Console.WriteLine();
+            masterEmployee.GetEmployees();
+            System.Console.WriteLine();
+
+            
+        }
+    }
+}
+```
