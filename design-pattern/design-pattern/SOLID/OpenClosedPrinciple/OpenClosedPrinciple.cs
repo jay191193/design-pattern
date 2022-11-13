@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification
+/// </summary>
 namespace design_pattern.OpenClosedPrinciple
 {
     public interface ICalculate
