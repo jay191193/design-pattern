@@ -8,3 +8,25 @@
 - Here is the Pictorial representation for the same if you can't get me.
 
 ![image](https://user-images.githubusercontent.com/14868665/202627817-6fbee429-d8ac-409a-99e4-1bdaea6cc9e8.png).
+
+## To Run Liskov Substitution Principle code, you have to update your ```Program.cs``` as per below.
+```sh
+using design_pattern.LiskovSubstitutionPrinciple;
+
+namespace design_pattern
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            CalculateArea calculateArea = new CalculateArea();
+            Rectangle rc = new Rectangle(2, 3);
+            System.Console.WriteLine(calculateArea.Area(rc));
+            // We are substituting Rectangle for Square over here.
+            /*Square*/
+            Rectangle sq = new Square();
+            sq.Width = 4;
+            System.Console.WriteLine(calculateArea.Area(sq));
+        }
+    }
+}
