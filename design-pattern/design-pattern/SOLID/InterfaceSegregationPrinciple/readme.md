@@ -13,6 +13,7 @@ interface IPrinter
     void Scan(Document d);
     void ColorPrint(Document d);
 }
+```
 
 - So this is our Printer interface.
 - Now, we will create a main Printer class and we will implement this interface for that class.
