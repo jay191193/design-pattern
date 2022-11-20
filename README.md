@@ -41,3 +41,11 @@ namespace design_pattern
 }
 ```
 - Now press ```ctrl+F5```. It will run console application against our ```Main()``` function inside ```Program.cs``` file.
+
+# Navigation
+- SOLID Principle
+  - [Single Responsibility Principle](https://github.com/jay191193/design-pattern/tree/main/design-pattern/design-pattern/SOLID/SingleResponsibilityPrinciple)
+  - [Open Closed Principle](https://github.com/jay191193/design-pattern/tree/main/design-pattern/design-pattern/SOLID/OpenClosedPrinciple)
+  - [Liskov Substitution Principle](https://github.com/jay191193/design-pattern/tree/main/design-pattern/design-pattern/SOLID/LiskovSubstitutionPrinciple)
+  - [Interface Segregation Principle](https://github.com/jay191193/design-pattern/tree/main/design-pattern/design-pattern/SOLID/InterfaceSegregationPrinciple)
+  - [Dependency Inversion Principle](https://github.com/jay191193/design-pattern/tree/main/design-pattern/design-pattern/SOLID/DependencyInversionPrinciple)
