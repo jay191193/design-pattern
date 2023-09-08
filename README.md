@@ -1,3 +1,5 @@
+ABC
+
 This repository contains ```C#``` based examples of many popular Design Patterns.
 
 Each Design Pattern has its own separate README with related explanations.
